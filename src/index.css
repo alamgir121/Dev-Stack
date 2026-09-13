@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Single source of truth for the brand gradient (orange -> pink -> violet).
+     Change this one value to re-theme every gradient element in the app. */
+  --brand-gradient: linear-gradient(90deg, #ff7a18 0%, #e1306c 50%, #7b2ff7 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #0f1115;
+  background: #ffffff;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: "Sora", sans-serif;
+}
+
+.text-gradient {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-brand-gradient {
+  background: var(--brand-gradient);
+}
+
+/* Visible keyboard focus, kept consistent across interactive elements */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #7b2ff7;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
