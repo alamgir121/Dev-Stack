@@ -13,7 +13,7 @@ export default function Hero() {
           </h1>
           <p className="mt-5 text-muted text-base sm:text-lg max-w-xl mx-auto md:mx-0">
             Browse frontend, backend, database, and DevOps technologies, compare them at a
-            glance, and collect the ones you want into a stack that's actually yours.
+            glance, and collect the ones you want into a stack that&apos;s actually yours.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a

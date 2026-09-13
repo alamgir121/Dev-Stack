@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function StackItem({ tech, onRemove }) {
   return (
     <li className="flex items-center gap-3 bg-gray-50 rounded-xl p-3">

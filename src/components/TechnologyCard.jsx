@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const DIFFICULTY_STYLES = {
   "Beginner-Friendly": "bg-emerald-50 text-emerald-600",
   Intermediate: "bg-amber-50 text-amber-600",

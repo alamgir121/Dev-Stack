@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import TechnologyCard from "./TechnologyCard.jsx";
 
@@ -6,7 +7,7 @@ export default function TechnologyGrid({ stackIds, onAdd, children }) {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Load technology data from the local JSON file, not a hardcoded array.
+  
   useEffect(() => {
     let isMounted = true;
 

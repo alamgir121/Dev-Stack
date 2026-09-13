@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import StackItem from "./StackItem.jsx";
 
 export default function YourStack({ stack, onRemove, onRemoveAll }) {
