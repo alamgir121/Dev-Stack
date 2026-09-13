@@ -3,12 +3,12 @@ project name : Dev Stack
 Dev Stack is a simple web application whewe users can explore different technology stack. Users can add technologies to their stack and remove them whenever they want .
 
 Techologies I used
-React
-javaScript
-Tailwind Css
-DaisyUI
-React-Tostify 
-Vite
+1.React
+2.javaScript
+3.Tailwind Css
+4.DaisyUI
+5.React-Tostify 
+6.Vite
 
 
 Features
