@@ -70,7 +70,7 @@ export default function Navbar() {
           <li>
             <a
               href="#home"
-              className="hover:text-ink transition-colors"
+                 className="bg-[#DB2777] text-white font-semibold px-4 py-2 hover:opacity-90 transition-opacity"
             >
               Home
             </a>
