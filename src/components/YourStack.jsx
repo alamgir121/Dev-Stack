@@ -15,7 +15,7 @@ export default function YourStack({ stack, onRemove, onRemoveAll }) {
       {count === 0 ? (
         <div className="text-center py-10 px-2">
           <p className="text-sm text-muted">
-            Your stack is empty. Tap "Add to Stack" on any technology to start building it.
+            Your stack is empty.
           </p>
         </div>
       ) : (
